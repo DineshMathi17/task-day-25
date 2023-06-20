@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Loginpage } from './pages/login';
 import { Register } from './pages/Register';
@@ -15,6 +15,8 @@ import { Buttontype } from './components/butttons';
 import DatatablePage from './table/table1';
 import { Dashboard } from './components/dashboard';
 import { CombinedChart } from './chart/combinechart';
+import { Switch } from 'react-router-dom/cjs/react-router-dom.min';
+
 
 
 function App() {
